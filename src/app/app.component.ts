@@ -47,6 +47,5 @@ export class AppComponent {
       curso: 'Gastronomia',
       data : '01/04/1949'
     }
-
   ];
 }
