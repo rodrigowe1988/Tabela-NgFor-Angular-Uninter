@@ -1,3 +1,14 @@
+College work
+
+Create a table with Angular that uses ****ngFor*** to print the list elements
+
+https://tabby-burglar-c92.notion.site/749d2e6b8a854c95b2e72997dd792dad
+
+<img src="./">
+
+
+
+
 # AngularTable
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
