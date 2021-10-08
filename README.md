@@ -4,7 +4,7 @@ Create a table with Angular that uses ****ngFor*** to print the list elements
 
 https://tabby-burglar-c92.notion.site/749d2e6b8a854c95b2e72997dd792dad
 
-<img src="./">
+<img src="./Captura de Tela 2021-10-08 às 10.51.09.png">
 
 
 
