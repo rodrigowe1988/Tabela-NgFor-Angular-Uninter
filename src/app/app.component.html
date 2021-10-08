@@ -31,35 +31,11 @@
       </thead>
 				<!--adicionando os alunos na tabela-->
       <tbody>
-				<tr>
-					<td>Rodrigo Weber</td>
-					<td>910033</td>
-					<td>Análise e Desenvolvimento de Sistemas</td>
-					<td>13/01/1988</td>
-				</tr>
-				<tr>
-					<td>Rodrigo Weber</td>
-					<td>910033</td>
-					<td>Análise e Desenvolvimento de Sistemas</td>
-					<td>13/01/1988</td>
-				</tr>
-				<tr>
-					<td>Rodrigo Weber</td>
-					<td>910033</td>
-					<td>Análise e Desenvolvimento de Sistemas</td>
-					<td>13/01/1988</td>
-				</tr>
-				<tr>
-					<td>Rodrigo Weber</td>
-					<td>910033</td>
-					<td>Análise e Desenvolvimento de Sistemas</td>
-					<td>13/01/1988</td>
-				</tr>
-				<tr>
-					<td>Rodrigo Weber</td>
-					<td>910033</td>
-					<td>Análise e Desenvolvimento de Sistemas</td>
-					<td>13/01/1988</td>
+				<tr *ngFor="let aluno of alunos">
+					<td>{{ aluno.nome }}</td>
+					<td>{{ aluno.ru }}</td>
+					<td>{{ aluno.curso}}</td>
+					<td>{{ aluno.data }}</td>
 				</tr>
       </tbody>
 			</table>
